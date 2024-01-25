@@ -1,0 +1,65 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.agreement {
+  max-width: 800px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+.party, .terms, .notes, .price, .signature-line {
+  margin-bottom: 20px;
+  padding: 15px; /* Increased padding for sections */
+  border: 1px solid #ccc; /* Borders for sections */
+  border-radius: 10px;
+}
+
+button {
+  padding: 12px 20px; /* Adjusted padding for the button */
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#acceptanceNotification {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.copyright {
+  color: #333;
+  font-size: 14px;
+}
