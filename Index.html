@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Website Transfer Agreement</title>
+</head>
+<body>
+
+<header>
+  <h1>Website Transfer Agreement</h1>
+</header>
+
+<div class="container">
+  <div class="agreement">
+    <section class="party">
+      <h2>Party One: Hector Garcia</h2>
+      <p>Email: contractor@hrqualityplastering.com</p>
+    </section>
+
+    <section class="party">
+      <h2>Party Two: Alexander Camman</h2>
+      <p>Email: offers@securetestkits.com</p>
+    </section>
+
+    <section class="terms">
+      <ol>
+        <li>I, Party Two, agree to transfer the website to Party One upon the terms mentioned herein.</li>
+        <li>Party One acknowledges receipt and ownership of the website.</li>
+        <li>The website will be maintained and supported by Party Two for 30 days post-transfer. </li>
+      </ol>
+    </section>
+
+    <section class="negotiation">
+      <h2>Negotiation</h2>
+      <p>Set your price: $<span id="negotiatePrice">0</span></p>
+      <input type="range" id="priceSlider" min="0" max="100" step="1" value="0">
+      <p>Final Price: $<span id="finalPriceDisplay">0</span></p>
+    </section>
+
+    <section class="signature-line">
+      <p>Signature: <span id="signature" class="cursive">________________________</span></p>
+    </section>
+
+    <section class="email">
+      <input type="checkbox" id="emailCheckbox" checked>
+      <label for="emailCheckbox">Send me an email confirmation</label>
+    </section>
+
+    <button id="acceptButton" class="buttonize">Accept Terms</button>
+    <p id="acceptanceNotification" class="hidden">Terms Accepted!</p>
+  </div>
+</div>
+
+<footer>
+  <section class="copyright">
+    <p>&copy; 2024 Website Transfer Agreement. All rights reserved.</p>
+  </section>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
